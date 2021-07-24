@@ -10,4 +10,9 @@ public class Controller {
     public String home(){
         return "Hello World.";
     }
+
+    @GetMapping
+    public String land(){
+        return "Land Page";
+    }
 }
