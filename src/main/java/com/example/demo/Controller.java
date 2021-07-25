@@ -11,7 +11,7 @@ public class Controller {
         return "Hello World.";
     }
 
-    @GetMapping
+    @GetMapping("/land")
     public String land(){
         return "Land Page";
     }
